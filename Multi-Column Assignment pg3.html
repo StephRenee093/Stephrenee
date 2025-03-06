@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Column Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #FF0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #575757;
+        }
+        main {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .content {
+            display: flex;
+            gap: 20px;
+        }
+        .content article {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #531DFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        figure {
+            margin: 20px 0;
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        figcaption {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Sonic the Hedgehog 3 - Movie Review</h1>
+        <nav>
+            <ul>
+                <li><a href="Multi-Column Assignment.html">Plot Overview</a></li>
+                <li><a href="Multi-Column Assignment pg2.html">Character Dynamics</a></li>
+                <li><a href="Multi-Column Assignment pg3.html">Visuals and Direction</a></li>
+                <li><a href="Multi-Column Assignment pg4.html">Themes and Reception</a></li>
+                <li><a href="Multi-Column Assignment pg5.html">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <article>
+                <h2>Visuals and Direction</h2>
+                <p>Sonic the Hedgehog 3, the latest installment in the beloved video game franchise, continues to captivate audiences with its stunning visuals and dynamic direction. Building on the success of its predecessors, the film pushes the boundaries of CGI animation, delivering a visually immersive experience that appeals to fans of all ages.</p>
+                <p>Director Jeff Fowler continues to adeptly blend live-action sequences with CGI, creating a visually engaging experience. The action scenes are meticulously choreographed, capturing the essence of the Sonic franchise's fast-paced nature. The film's cinematography highlights diverse settings, from urban landscapes to high-tech facilities, providing a dynamic backdrop to the unfolding story. </p>
+                <p>One of the standout visual elements is the character design, which remains faithful to the iconic video game characters while incorporating modern updates. Sonic's expressive features and fluid movements are a testament to the advancements in CGI technology, enhancing the audience's emotional connection with the
+                    character. The attention to detail in the animation, from the fur textures to the intricate facial expressions, adds depth and realism to the on-screen personas.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="shadow.jpg" alt="An example image">
+                    <figcaption>Movie poster from premier release</figcaption>
+                </figure>
+
+                <article>
+                    <h2>Watch the Official Trailer</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qSu6i2iFMO0" 
+                        title="Sonic 3 Trailer" frameborder="0" allowfullscreen>
+                    </iframe>
+                </article>
+                
+                
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Website - Stephanie M.</p>
+    </footer>
+</body>
+</html>
